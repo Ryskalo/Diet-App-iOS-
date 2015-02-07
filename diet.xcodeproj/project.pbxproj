@@ -13,6 +13,7 @@
 		FBB104361A7576B300D9D396 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB104351A7576B300D9D396 /* Images.xcassets */; };
 		FBB104391A7576B300D9D396 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB104371A7576B300D9D396 /* LaunchScreen.xib */; };
 		FBB104451A7576B300D9D396 /* dietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB104441A7576B300D9D396 /* dietTests.swift */; };
+		FBB104511A75A32700D9D396 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBB104501A75A32700D9D396 /* Products.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FBB1043E1A7576B300D9D396 /* dietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dietTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB104431A7576B300D9D396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBB104441A7576B300D9D396 /* dietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietTests.swift; sourceTree = "<group>"; };
+		FBB104501A75A32700D9D396 /* Products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Products.plist; path = ../Products.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				FBB104321A7576B300D9D396 /* Main.storyboard */,
 				FBB104351A7576B300D9D396 /* Images.xcassets */,
 				FBB104371A7576B300D9D396 /* LaunchScreen.xib */,
+				FBB104501A75A32700D9D396 /* Products.plist */,
 				FBB1042C1A7576B300D9D396 /* Supporting Files */,
 			);
 			path = diet;
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB104511A75A32700D9D396 /* Products.plist in Resources */,
 				FBB104341A7576B300D9D396 /* Main.storyboard in Resources */,
 				FBB104391A7576B300D9D396 /* LaunchScreen.xib in Resources */,
 				FBB104361A7576B300D9D396 /* Images.xcassets in Resources */,

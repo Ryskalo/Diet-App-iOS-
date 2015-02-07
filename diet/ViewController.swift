@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var weightField: UITextField!
@@ -42,11 +43,37 @@ class ViewController: UIViewController {
         {
         case 0:
             
-            let ruleCalories:Float = (10 * weight + 6.25 * height - 5 * old + 5) * 1.2
+          /*  let ruleCalories:Float = (10 * weight + 6.25 * height - 5 * old + 5) * 1.2
             
             var cal = num.stringFromNumber(ruleCalories)
             
             caloriesResult.text = cal! + " Calories"
+            
+       //     var data : NSMutableDictionary = NSMutableDictionary(contentsOfFile: path!)!
+            
+            var object = ["Calor" : "ruleCalories"]
+            
+            var path = NSBundle.mainBundle().pathForResource("Products", ofType: "plist")
+            
+            var paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
+            var path = paths.stringByAppendingPathComponent("Products.plist")
+            var fileManager = NSFileManager.defaultManager()
+            if (!(fileManager.fileExistsAtPath(path)))
+            {
+                var bundle : NSString = NSBundle.mainBundle().pathForResource("Products", ofType: "plist")!
+                fileManager.copyItemAtPath(bundle, toPath: path, error:nil)
+            }
+            
+            //var data : NSMutableDictionary = NSMutableDictionary(contentsOfFile: path!)!
+            
+         //   data.setObject(object, forKey: "Calor")
+          //  data.writeToFile(path!, atomically: true)
+            
+          //  var name:AnyObject! = data.objectForKey("Calor")
+            
+          //  println("\(name)") 
+
+        */
             
             break;
         case 1:
